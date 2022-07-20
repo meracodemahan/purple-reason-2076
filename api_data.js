@@ -2,7 +2,7 @@ let news=[
 
     {
         id: 1,
-        author: "",
+        author: "ANI",
         title: "Sri Lanka crisis live updates | Voting begins to elect new president in three-cornered contest",
         description: "Here are all the latest updates on the ongoing political and economic crisis in Sri Lanka",
         category: "social",
@@ -34,7 +34,7 @@ let news=[
         author: "AP",
         title: "U.S. House passes same-sex marriage bill in retort to high court",
         description: "The House has overwhelmingly approved a bill to protect same-sex and interracial marriages",
-        category: "WORLD",
+        category: "world",
         newsref: "international",
         trending: true,
         Image: "https://th-i.thgim.com/public/incoming/5quhgu/article65660670.ece/alternates/FREE_1200/Pride_Parades_39226.jpg-8c3ed.jpg",
@@ -49,7 +49,7 @@ let news=[
         author: "AP",
         title: "Nearly 160 world leaders plan to attend U.N. September meeting",
         description: "A very high number of heads of state and government—157—say they plan to attend September’s first totally in-person gathering of world leaders at the U.N. General Assembly since the COVID-19 pandemic began in early 2020",
-        category: "word",
+        category: "world",
         newsref: "international",
         trending: true,
         Image: "https://th-i.thgim.com/public/incoming/ktx8ix/article65659817.ece/alternates/FREE_1200/UN_General_Assembly_08460.jpg-f55e2.jpg",
@@ -76,7 +76,7 @@ let news=[
         author: "Sriram Laxman",
         title: "Rishi Sunak tops new vote to edge closer to final spot in British PM race",
         description: "British Indian former Chancellor Rishi Sunak received 118 votes in the fourth round of voting by his party colleagues, just shy of the 120-mark",
-        category: "social",
+        category: "world",
         newsref: "international",
         trending: true,
         Image: "https://th-i.thgim.com/public/news/international/1q1pmk/article65658972.ece/alternates/FREE_1200/2022-07-18T071451Z_73128817_RC26EV9N1KCK_RTRMADP_3_BRITAIN-POLITICS.JPG",
@@ -124,16 +124,10 @@ let news=[
         Image: "https://th-i.thgim.com/public/incoming/ao2uve/article65654466.ece/alternates/FREE_1200/Thomas%20Brdaric%205.jpg",
         published_At: "JULY 18, 2022 18:49 IST",
         content: `"You can't sleep in the bed and just dream," he tongue-in-cheeks while responding to the query if he will bring the Indian Super League (ISL) trophy Chennai.
-
         He's philosophical. "You need luck."
-        
         Yet, he's very practical and, given his track record, gets the job done. “The best quality needed to win titles is to be patient, to be humble, to understand how football works. I mean, I'm not here to waste time. We need to progress in a very professional way.”
-        
-        
         Chennaiyin FC finished eighth overall and last in terms of the goals scored last season. Precisely what Brdaric seeks - working with the bottom-placed teams and making them “suitable” for his successor. “To create or build a successful team, that is always my challenge.”
-        
         He's looking forward to working with Anirudh Thapa. "I assume he’s really physically fit, because I haven’t seen him in real life, but only in the videos, and I know him from what the Indian National coach has been telling me. I have big expectations for him."
-        
         He's played a big part in signing Petar Sliskovic and Fullao Diagne, experienced players he knows way too well. His assistant-coach friend is also from his previous stint with the Albanian club Vllaznia which they transformed into a successful one.`
     },
     {
@@ -148,7 +142,6 @@ let news=[
         published_At: "JULY 18, 2022 14:40 IST",
         content: `Veteran sports administrator Narinder Batra on Monday resigned as President of the International Hockey Federation (FIH) and also gave up his membership of the International Olympic Committee (IOC).
         Mr. Batra ceased to be President of the Indian Olympic Association (IOA) when the Delhi High Court, on May 25, struck down the post of 'Life member' in Hockey India, courtesy which he had contested the IOA elections and won back in 2017."Due to personal reasons I submit my resignation from the post of President FIH," Mr. Batra wrote to the Executive Board of FIH.
-
         Mr. Batra's IOC membership was linked to the IOA presidency but his resignation from FIH has come as surprise since in May he had said that he wants to focus on his job in the world hockey body.`
     },
     {
@@ -186,15 +179,10 @@ let news=[
         Image: "https://static.toiimg.com/thumb/msid-92998370,imgsize-23038,width-400,resizemode-4/92998370.jpg",
         published_At: "Jul 20, 2022, 12:05 IST",
         content: `Prime Minister Narendra Modi will interact with the Indian contingent bound for the Commonwealth Games (CWG) 2022 on Wednesday through video conferencing.
-
         The interaction by the Prime Minister is a part of his continuous endeavour to motivate athletes ahead of their participation in major sporting events.
-        
         Last year, Modi interacted with the Indian athletes' contingent bound for the Tokyo 2020 Olympics as well as the Indian para-athletes' contingent for the Tokyo 2020 Paralympic Games.
-        
         Even during the sporting events, the Prime Minister took a keen interest in the progress of the athletes. On many occasions, he personally rang up athletes to congratulate them on their success and sincere efforts, while motivating them to do better.
-        
         Further, also upon their return to the country, the Prime Minister has also met and interacted with the athletes.
-        
         The CWG 2022 is scheduled to be held in Birmingham from July 28 till August 8. A total of 215 athletes, participating in 141 events across 19 sporting disciplines, will represent India in the CWG 2022.`
     },
     {
@@ -202,15 +190,13 @@ let news=[
         author: "PTI",
         title: "Rescheduled Asian Games from September 23 to October 8 next year",
         description: "",
-        category: "social",
+        category: "sport",
         newsref: "international",
         trending: true,
         Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPx1Y7kut7hlkpYfuaYMh53-qQboFztgdR_w&usqp=CAU",
         published_At: "19 July, 2022 06:00 pm IST",
         content: `The Task Force over the last two months held various discussions with the Chinese Olympic Committee, Hangzhou Asian Games Organising Committee (HAGOC) and other stakeholders to find a window for the Games which did not conflict with other major international sporting events,” the OCA said in a statement.
-
         “The recommended dates by the Task Force were duly approved by the OCA EB,” the statement added.
-        
         The COC said,”We will make concerted efforts with the OCA and the HAGOC in advancing preparatory work to ensure the Games a success.” “The HAGOC will collaborate with all related parties in preparation for the Games in an all-round manner according to the confirmed dates to stage a spectacular sporting and cultural gala with Chinese Grandeur, Zhejiang Style and Hangzhou Flavor,” state-run Xinhua agency quoted a statement, issued by the organisers as saying. `
     },
     {
@@ -258,7 +244,7 @@ let news=[
     },
     {
         id: 18,
-        author: "",
+        author: "API",
         title: "AAP’s Sanjay Singh & BJP’s Varun Gandhi allege Agnipath casteism. Army & Rajnath reject ‘rumour’",
         description: "Sanjay Singh & Varun Gandhi question requirement to submit caste certificate for Agnipath recruitment, but Army officers say it has always been there. ",
         category: "defence",
@@ -295,22 +281,21 @@ let news=[
         published_At: "15 July, 2022 05:46 pm IST",
         content: `Indian Air Force Air Chief Marshal (ACM) V. R. Chaudhari Friday warned against the creation of an Air Defence (AD) Command, planned under the theaterisation process, without it having offensive capabilities. Chaudhuri said that division of offensive capabilities was  “ineffective in design or execution of the joint strategy”.
         The Air Chief Marshal made it clear that modern 4.5 and 5th generation aircraft have omni-role capability, and to restrict those aircraft to any one role would lead to their underutilisation.“Flexibility, one of the characteristics of air power, gives a planner the freedom to swing roles depending on the air situation, and this must be capitalised on,” he said, while addressing a seminar organised by the Centre for Joint Warfare Studies (CENJOWS).
-
         His comments came at a time when the theaterisation process envisions an Air Defence Command under the Indian Air Force and aviation assets being split into other theatres.
-        
         The IAF, which has been supporting jointness, is of the view that there should only be once Command — India Command — with all the three Services working in synergy.`
     },
     {
         id: 21,
         author: "ANI",
         title: "Assamese singer and music composer Zubeen Garg hospitalised in Dibrugarh",
-        description: "",
+        description: "Renowned Assamese singer and music composer Zubeen Garg has been admitted to a private medical facility in Dibrugarh after sustaining a minor head injury.",
         category: "entertainment",
         newsref: "international",
         trending: true,
-        Image: "",
-        published_At: "",
-        content: ""
+        Image: "https://assets-jpcust.jwpsrv.com/thumbnails/0lj0z8lx-720.jpg",
+        published_At: "20th July, 2022 14:02 IST",
+        content: `Renowned Assamese singer and music composer Zubeen Garg has been admitted to a private medical facility in Dibrugarh after sustaining a minor head injury. According to Republic Media Network, Zubeen was in a resort in Dibrugarh when he slipped in the bathroom.  A CT scan has been conducted by doctors to ascertain his condition, while his vital parameters are stable. Doctors have revealed that the singer had a seizure following an epileptic fit. Zubeen has received 5 stitches on his head. Further details on his recovery are awaited. Assam CM Himanta Biswa Sarma has also come to the singer's aid, mentioning that he'll be flown out in Air Ambulance for further treatment if needed. The deputy commissioner of Dibrugarh has been instructed to provide every assistance to Zubeen. Health Minister Keshab Mahanta is also monitoring the situation closely.
+        Dibrugarh's deputy commissioner Biswajit Pegu mentioned that Zubeen will be shifted to Guwahati in an air ambulance. The singer's treatment will be done at Gauhati Medical College Hospita`
     },
     {
         id: 22,
@@ -353,7 +338,6 @@ let news=[
         Image: "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/20/2523702-jaani-1.jpg",
         published_At: "Jul 20, 2022, 10:14 AM IST",
         content: `After surviving a fatal road accident, Punjabi singer-songwriter-composer Jaani Johan shared his health update on his social media. For the unversed, Jaani and two others suffered injuries after their SUV got hit by another vehicle in Mohali on Tuesday evening. After the accident, Jaani and the other two were sent to the local hospital. 
-
         A few hours after the accident, Jaani shared his health update on Instagram, and he thanked all mighty for protecting him. Jaani wrote, "With the grace of the all mighty, we all present in the car at that time are fine. The authorities are doing their due diligence in the matter, and we have been discharged from the hospital. Waheguru ne rakh le. Waheguru da shukr hai.Famous Punjabi singer-lyricist Jaani Johan and two others got injured in a road accident on Tuesday evening, after their SUV was hit by another vehicle at Sector 88 of Mohali, Punjab. When it comes to the reason behind the accident, Police said that prima facie signal jumping at the red light appears to be the cause of the collision between the SUV and a Ford Figo.The official further added that the collision was so powerful, that the cars flipped thrice. However, the airbags of both vehicles saved lives. The 33-year-old lyricist and the other two occupants were taken to a private hospital in Mohali. On the other side, passengers of the other vehicle received minor injuries. As per the report of IANS, the singer suffered injuries on his neck and back. Jaani and his friend were sitting in the back seat, while the driver was on the wheel of a Toyota Fortuner.  `
     },
     {
@@ -367,12 +351,10 @@ let news=[
         Image: "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/20/2523673-kartik-aaryaninstagram-1-1.jpg",
         published_At: ": Jul 20, 2022, 07:15 AM IST",
         content: `Kartik Aaryan who is riding high on the box office success of his latest outing Bhool Bhulaiyaa 2 is currently busy shooting for his next project titled Shehzada.  And while the actor has been keeping his fans updated about the shoot, he also keeps giving a glimpse of the fun time he has on the film's sets.
-
         The actor, who is currently shooting for Shehzada in Haryana, recently shared a picture of himself enjoying the beautiful sunset, surrounded by lush green grass, making us all reminisce about the last sunset we witnessed.
         READ: Shah Rukh Khan poses with chefs after enjoying Italian meal in London amid Dunki shoot    
         Kartik and Kriti were recently shooting together. However, Kriti is not with him in the Haryana schedule of the film.
         Speaking of Shehzada, the film recently got a new release date. Last week, Kartik took to his Instagram to share the release date and wrote, "Shehzada Returns Home. Feb 10th 2023." 
-
         Helmed by Rohit Dhawan, the film is touted as an action-packed family musical film. Paresh Rawal, Manisha Koirala, Ronit Roy, and Sachin Khedekar are also a part of Shehzada. It is the Hindi remake of the Telugu blockbuster Ala Vaikunthapurramuloo, which starred Allu Arjun.
         Apart from Shehzada, Kartik recently announced that he has signed a project with Sajid Nadiadwala's production house which will be helmed by Kabir Khan. Though the details of the project have been kept under wraps, it is speculated to be a massive entertainer on a large-scale production based on true events.`
     },
