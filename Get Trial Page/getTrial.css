@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #154A60;
+}
+#container{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.left-section{
+    width: 55%;
+    height: 700px;
+}
+.right-section{
+    width: 50%;
+    height: 500px;
+}
+#subcriber-title>span:first-child{
+    font-size: 34px;
+    color: white; 
+    line-height: 50px;
+    letter-spacing: 0px;  
+}
+#purchaseText{
+    display: block;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#purchaseText a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+#subcriber-content{
+  width: 90%; 
+  margin-top: 30px; 
+}
+#subcriber-content>span{
+    font-size: 22px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+#subcriber-content .list{
+    width: 100%;
+    font-size: 16px;
+    list-style: none;
+    margin-top: 15px;
+    padding: 0px;
+    line-height: 30px;
+}
+#trail-btn{
+    width: 70%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: TundraWeb-BoldW03-Regular;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #F8D01C;
+    color: #133B5A;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#freeTrialContent{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#subscriberIncludeText span{
+    font-size: 24px;
+    font-family: Helvetica,Arial,sans-serif;
+    color: white;
+}
+#subscriberIncludeText .list-2{
+    list-style: none;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 15px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+#availablility>span{
+   width: 100%;
+   font-family: "Fira Sans", sans-serif;
+   font-size: 12px;
+   color: white;
+   margin-top: 60px;
+}
+.right-section{
+    padding: 0px 0px 0px 40px;
+}
+.right-section>img{
+    width: 100%;
+    margin-left: 30px;
+}
