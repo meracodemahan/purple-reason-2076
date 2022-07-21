@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hindu : Sign up</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            background-color: rgba(214, 210, 210, 0.694);
+            font-family: sans-serif;
+        }
+        form {
+            margin:  auto;
+            margin-top: 50px;
+            width: 100%;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            padding: 30px;
+            border-radius: 5px;
+            background-color: #133b5a ;
+        }
+        * {
+            box-sizing: border-box;
+        }
+       h1{
+        text-align: center;
+        margin: auto;
+        text-decoration:none;
+        color:black;
+        padding-top: 40px;
+       }
+        form>label {
+            font-size: 19px;
+            color: #ccc;
+        }
+
+        form>input[type="submit"] {
+            background-color: #2b619e;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 20px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3973b6;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        #main{
+            margin:  auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 32%;
+            justify-content: center;
+            align-items: center;
+          
+        }
+   #main>img{
+
+    width: 100%;
+   }
+    </style>
+</head>
+
+<body>
+  
+    <div id="main">
+        <img src="https://www.thehindu.com/theme/images/th-online/logo.png" alt="">
+        <h1> Sign Up</h1>
+        <form>
+            <label for="">Name</label><br />
+            <input type="text" placeholder="Enter your name" id="name"><br>
+            <label for="">Email</label><br />
+            <input type="email" placeholder="Enter your email" id="email"><br>
+            <label for="">Mobile No</label><br />
+            <input type="number" placeholder="Enter your moblie" id="mobile"><br>
+            <label for="">Password</label><br />
+            <input type="password" placeholder="Enter password" id="password">
+            <input type="submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
+<script>
+    document.querySelector("#main>form").addEventListener("submit",user_detail_input);
+
+    let arr_to_ls= JSON.parse(localStorage.getItem("datalis")) || [];
+    function user_detail_input() {
+        event.preventDefault();
+        let user_detail= {
+            name: document.querySelector("#name").value,
+            email: document.querySelector("#email").value,
+            mobile: document.querySelector("#mobile").value,
+            password: document.querySelector("#password").value
+        };
+
+        let status= true;
+        for (let i = 0; i < arr_to_ls.length; i++) {
+            if (arr_to_ls[i].email===user_detail.email){
+                status=false;
+                break;
+            }
+        }
+       if(user_detail.name==""||user_detail.email==""||user_detail.mobile==""||user_detail.password==""){
+            alert("fill all details")
+        }
+       else if (status==true) {
+            arr_to_ls.push(user_detail);
+            localStorage.setItem("datalis",JSON.stringify(arr_to_ls));
+            alert("Successfully signup");
+            location.href = "login.html";
+        }
+        else {
+            alert("User already exist");
+        }
+    }
+</script>
