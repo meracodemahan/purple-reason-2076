@@ -1,0 +1,272 @@
+*{
+padding: 0%;
+margin: 0%;
+
+
+
+}
+
+
+.paymentcontainer{
+position: absolute;
+border: 1px solid black;
+height: 200px;
+width: 300px;
+top: 30%;
+left: 30%;
+padding: 20px;
+
+}
+
+.logoh{
+    width: 100%;
+   
+}
+#Paymentemailid{
+width: 70%;
+padding: 10px;
+margin: 10px;
+
+
+
+}
+
+.Pbut{
+width: 80%;
+padding: 10px;
+margin: 10px;
+background-color: white;
+text-align: center;
+}
+.Pbut:hover{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#closepayment{
+    position: fixed;
+bottom: 67%;
+left: 54%;
+
+}
+
+#fpayment{
+border: 1px solid green;
+position: fixed;
+top: 20%;
+left: 20%;
+width: 40%;
+
+height: 500px;
+overflow: scroll;
+border-radius: 10px 0px 0px 0px;
+
+
+
+
+
+
+}
+
+
+.backebutn{
+   
+ width: 20%;
+ height: 50px;
+ margin: 10px;
+
+
+   
+}
+#backimage{
+    width: 50%;
+    text-align: center; 
+}
+
+.plogo{
+ 
+   height: 50px;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+.plogo>img{
+    width: 80%;
+   
+}
+
+.fistp{
+    display: flex;
+    padding: 10px;
+}
+
+.p1{
+
+display: flex;
+
+width: 100%;
+height: 70px;
+padding: 10px;
+}
+
+
+.p2{
+    
+    width: 60%;
+    height: 50px;
+    padding: 8px;
+   
+}
+
+
+.p3{
+   
+    margin: 20px;
+    width: 30%;
+
+  
+   
+}
+.p3>img{
+    width: 100%;
+
+}
+.p3>h1{
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+
+
+
+    
+}
+
+
+.p4{
+
+    
+    width: 80%;
+   
+    margin-left: 60px;
+    padding: 10px;
+   
+}
+
+.p4>div{
+
+    margin: 8px;
+}
+.qr{
+
+   
+    
+       width: 100%;
+       height: 150px;
+       box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        padding: 10px;
+       border-radius: 10px 10px 10px 10px;
+   
+
+
+}
+.qr>img{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.qr>h3{
+
+   
+    margin: 10px;
+    
+}
+
+#cardcontainer{
+
+height: 60px;
+width: 90%;
+
+}
+
+
+#cardname{
+
+    width:35%;
+    height: 280px;
+   
+    position: fixed;
+    bottom: 10%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px 10px 10px 10px ;
+    opacity: 0.9;
+    display: none;
+    
+
+}
+
+#cardnumber{
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 60%;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+
+.cardc{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+   
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px ;
+
+    margin: 20px;
+}
+.bordernon{
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+    margin: 10px;
+    
+}
+
+#pay{
+    background-color: rgb(138, 138, 245);
+margin: 20px;
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px 10px 10px 10px ;
+}
+.bordernon:hover{
+
+    
+    border-bottom: solid blue
+}
+
+#cardnumber:hover{
+
+    border-bottom: solid blue
+}
+
+.cardclose{
+
+    position: fixed;
+    bottom: 60%;
+    left: 58%;
+    
+
+}
+.paypro{
+
+    width: 100%;
+}
