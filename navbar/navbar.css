@@ -1,0 +1,123 @@
+*{
+    font-family:"Fira Sans",sans-serif;
+    font-weight: bold;
+    color: gray;
+    font-size: 14px;
+}
+#main{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+#menu:hover{
+    cursor: pointer;
+
+}
+#menu{
+    margin-top: px;
+}
+.line:nth-child(2){
+    margin-top: -15px;   
+}
+.line:nth-child(3){
+    margin-top: -30px;
+}
+p:nth-child(4){
+    margin-top: -30px;
+}
+.dropdown{
+    position: realtive;
+    display: inline-block;
+}
+#list{
+    display: none;
+    position: absolute;
+    
+}
+.dropdown:hover{
+    cursor: pointer;
+}
+.dropdown:hover #list{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+#pages{
+    display: flex;
+    gap: 20px;
+}
+#pages>div:nth-child(1){
+    padding:11px;
+    background-color: #00419b;
+    
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+#pages>div{
+    border-radius: 5px;
+}
+#pages>div:nth-child(1)>a{
+    color: white;
+}
+#pages>div:nth-child(2){
+    padding: 10px;
+    background-color:#ffc000 ;
+}
+#pages>div:nth-child(2)>a{
+    color: black;
+}
+#pages>div:nth-child(3){
+    padding: 10px;
+    border: 1px solid #00419b;
+}
+#pages>div:nth-child(3)>a{
+    color: #00419b;
+}
+#pages>div:nth-child(2):hover{
+    background-color: #00419b;
+    color: white;
+}
+#pages>div:nth-child(2):hover a{
+    color: white;
+    text-decoration: none;
+}
+#pages>div:nth-child(3):hover{
+    background-color: #00419b;
+    color: white;
+}
+#pages>div:nth-child(3):hover a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#sub{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    width: 80%;
+    gap: 25px;
+    margin: auto;
+    
+}
+#sub a{
+    font-size: 11px;
+}
+#sub p{
+    font-size: 13px;
+}
+#sub img{
+    width: 30%;
+    margin-left: 50px;
+}
