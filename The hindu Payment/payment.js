@@ -11,5 +11,5 @@ closep.addEventListener("click" ,function(){
 
 let nextp =()=>{
 
-    location.href="finalpayment.html"
+
 }
