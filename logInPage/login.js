@@ -9,7 +9,7 @@ btn.addEventListener("submit",function(){
 })
 
 
-let userData = JSON.parse(localStorage.getItem("userData")) || [];
+let userData = JSON.parse(localStorage.getItem("details")) || [];
 function getData(){
     
     let obj ={

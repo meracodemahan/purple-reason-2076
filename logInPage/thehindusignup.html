@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Hindu : Sign up</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://www.thehindu.com/favicon.ico"
+    />
     <style>
         body{
             margin: 0%;
@@ -69,7 +74,7 @@
             margin:  auto;
             margin-top: 20px;
             margin-bottom: 20px;
-            width: 32%;
+            width: 30%;
             justify-content: center;
             align-items: center;
           
@@ -77,6 +82,33 @@
    #main>img{
 
     width: 100%;
+    flex-wrap: wrap;
+   }
+   a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+   }
+   a:hover{
+    text-decoration: underline;
+   }
+   @media all and (min-width:200px) and (max-width:720px){
+    form {
+            width:80%;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            padding: 30px;
+            border-radius: 5px;
+            background-color: #133b5a ;
+        }
+        #main{
+            margin:  auto;
+            margin-top: 20px;
+            width: 80%;
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+          
+        }
    }
     </style>
 </head>
@@ -96,7 +128,9 @@
             <label for="">Password</label><br />
             <input type="password" placeholder="Enter password" id="password">
             <input type="submit">
+            <p>If Already have account?<a href="login.html">Log In</a></p>
         </form>
+        
     </div>
 
 </body>
@@ -105,7 +139,7 @@
 <script>
     document.querySelector("#main>form").addEventListener("submit",user_detail_input);
 
-    let arr_to_ls= JSON.parse(localStorage.getItem("datalis")) || [];
+    let arr_to_ls= JSON.parse(localStorage.getItem("datails")) || [];
     function user_detail_input() {
         event.preventDefault();
         let user_detail= {
@@ -127,7 +161,7 @@
         }
        else if (status==true) {
             arr_to_ls.push(user_detail);
-            localStorage.setItem("datalis",JSON.stringify(arr_to_ls));
+            localStorage.setItem("datails",JSON.stringify(arr_to_ls));
             alert("Successfully signup");
             location.href = "login.html";
         }
