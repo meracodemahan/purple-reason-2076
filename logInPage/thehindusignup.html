@@ -139,7 +139,7 @@
 <script>
     document.querySelector("#main>form").addEventListener("submit",user_detail_input);
 
-    let arr_to_ls= JSON.parse(localStorage.getItem("datails")) || [];
+    let arr_to_ls= JSON.parse(localStorage.getItem("details")) || [];
     function user_detail_input() {
         event.preventDefault();
         let user_detail= {
@@ -161,7 +161,7 @@
         }
        else if (status==true) {
             arr_to_ls.push(user_detail);
-            localStorage.setItem("datails",JSON.stringify(arr_to_ls));
+            localStorage.setItem("details",JSON.stringify(arr_to_ls));
             alert("Successfully signup");
             location.href = "login.html";
         }

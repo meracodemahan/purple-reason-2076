@@ -1,41 +1,36 @@
 
+    document.querySelector("#form").addEventListener("submit",login_fn);
 
-
-let btn = document.querySelector("form")
-
-btn.addEventListener("submit",function(){
-    event.preventDefault();
-    getData();
-})
-
-
-let userData = JSON.parse(localStorage.getItem("details")) || [];
-function getData(){
+    let arr_from_ls= JSON.parse(localStorage.getItem("details")) || [];
+    function login_fn(event) {
+        event.preventDefault();
+        let email = document.querySelector("#username").value;
+        let password= document.querySelector("#password").value;
     
-    let obj ={
-        username:form.username.value,
-        password: form.password.value
-    }
-    
-    if(checkSignin(obj.username,obj.password)== true){
-        localStorage.setItem("login",JSON.stringify(obj))
-        alert("LogIn successful")
-    }
-    else{
-        alert("Wrong Username or Password");
-    }
-}
 
 
-function checkSignin(username,pass){
-    let filtered = userData.filter(function(el){
-        return el.username === username && el.password === pass
 
-    })
-    if(filtered.length>0){
-        return false;
+        let status=true;
+        for (let i = 0; i <arr_from_ls.length; i++) {
+            if (arr_from_ls[i].email== email &&arr_from_ls[i].password==password) {
+                status=false;
+                  break;
+
+            }
+        }
+        if (status==true) {
+            if(email==""||password==""){
+                alert("Fill the all fields")
+            }
+            else{
+                alert("Not Registered")
+            }
+              
+        }
+
+        else { 
+            
+            alert("Successfully login");
+                location.href = "../index.html";
+        }
     }
-    else{
-        return true;
-    }
-}

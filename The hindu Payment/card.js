@@ -34,9 +34,13 @@ setTimeout(function(){
     paymentpro.src="payment-successful.png"
     c.append(paymentpro)
 },2000)
-   
+
+setTimeout(function(){
+    window.location.href="../index.html"
+},4000)   
 
 }
+
 
 
 
