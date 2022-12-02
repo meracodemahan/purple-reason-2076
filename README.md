@@ -5,7 +5,7 @@
 
 <p> The Hindu is the news website that provides us with News Headlines, Breaking News &amp; LatestNews from India and World, and News from Politics, Sports, Business, Arts, and Entertainment.</p>
 
-<h3>Feactures:-</h3>
+<h3>Features:-</h3>
 
 ~ Home Page 
 
