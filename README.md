@@ -37,6 +37,7 @@ The Hindu is the news website that provides us with News Headlines, Breaking New
 ## Sign Up & Login Page
 
 ![signuppage](https://user-images.githubusercontent.com/101358022/215834137-e008d016-4a68-49d5-b148-8926bec33484.png)
+
 ![loginPageHindu](https://user-images.githubusercontent.com/101358022/215834256-aa2e7382-5ce6-4a0a-8579-f9e643afa671.png)
 
 ## Get Trial Page
