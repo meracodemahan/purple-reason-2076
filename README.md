@@ -2,7 +2,7 @@
 
 The Hindu is the news website that provides us with News Headlines, Breaking News &amp; LatestNews from India and World. Also sell the subscription of e-paper.
 
-# [Netlify Deployed Link](https://warm-tartufo-8ea9c8.netlify.app/)
+## [Netlify Deployed Link](https://warm-tartufo-8ea9c8.netlify.app/)
 
 ## Demo Login Credentials
 
