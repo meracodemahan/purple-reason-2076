@@ -13,6 +13,7 @@ The Hindu is the news website that provides us with News Headlines, Breaking New
  
 
 ## Tech Stacks Used
+
 - JavaScript
 - Axios
 - Deployed API
