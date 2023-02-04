@@ -1,6 +1,6 @@
 <h1>The Hindu - Clone </h1>
 
-The Hindu is the news website that provides us with News Headlines, Breaking News &amp; LatestNews worldwide. Also sell the subscription of e-paper.
+The Hindu is the news website that provides us with News Headlines, Breaking News &amp; LatestNews worldwide and also sell the subscription of e-paper.
 
 ## [Netlify Deployed Link](https://warm-tartufo-8ea9c8.netlify.app/)
 
