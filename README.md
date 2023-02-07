@@ -5,7 +5,6 @@ The Hindu is the news website that provides us with News Headlines, Breaking New
 
 ## [Netlify Deployed Link](https://warm-tartufo-8ea9c8.netlify.app/)
 
-
 ## Demo Login Credentials
 
 **Use this Credentials to Login as a user.**
