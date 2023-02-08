@@ -28,7 +28,7 @@ The Hindu is the news website that provides us with News Headlines, Breaking New
  * Siddharth Sharma
  * Vikas Maurya
  
-# Overview Of Project:
+# Overview Of Project : -
 
 ## Home Page
 
@@ -52,12 +52,3 @@ The Hindu is the news website that provides us with News Headlines, Breaking New
 
 ## Payment with Authentication
 ![paymentpagehindu](https://user-images.githubusercontent.com/101358022/215834341-757139d8-522c-4980-a6d9-fe4274f23a06.png)
-
-
-
-
-
-
-
-
-
